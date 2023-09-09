@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: image();
 }
 
 body {
@@ -109,9 +110,27 @@ nav ul li a:hover {
 }
 }
 .row img {
-    align-content: flex-start;
+    align-content:flex;
     width: 252px;
     height: 152px;
     border-radius: 15px;
     margin: -11px;
+    
+}
+
+.text-x {
+    color: black;
+    margin: 13px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.text-x p {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+#element1 {
+    color:gray;
+    font-style: italic;
 }
