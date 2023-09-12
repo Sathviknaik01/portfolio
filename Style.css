@@ -82,6 +82,8 @@ nav ul li a:hover {
     float: left;
     width : 25%;
     padding: 0 10px;
+    display: grid;
+    justify-content: space-between;
 }
 .row{
     margin: 0 -5px;
@@ -99,6 +101,7 @@ nav ul li a:hover {
     background-color: #f1f1f1;
     height: 337px;
     border-radius: 15px;
+    table-layout: fixed;
 }
 @media screen and (max-width:600px){
     
@@ -133,4 +136,18 @@ nav ul li a:hover {
 #element1 {
     color:gray;
     font-style: italic;
+}
+
+.thirdSection{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 0;
+}
+.thirdSection img{
+    width: 500px;
+    height: 500px;
+}
+.thirdLeft{
+    margin: 23px;
 }
